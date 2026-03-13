@@ -18,7 +18,7 @@ pretty_urls:
 
 # Directory
 source_dir: source
-public_dir: docs
+public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -85,7 +85,7 @@ theme: butterfly
 # Deployment
 deploy:
   type: git
-  repo: https://github.com/loveshiyan/loveshiyan.github.io.git
-  branch: main
+  repo: https://github.com/CCCCCCeYes/loveshiyan.github.io.git
+  branch: master
   message: Update blog
-  folder: docs
+  folder: .
